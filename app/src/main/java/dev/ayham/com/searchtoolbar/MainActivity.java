@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         searchToolBar = new SearchToolBar(this);
         searchToolBar.setPosFromRight(50);
-
     }
 
     @Override
