@@ -1,5 +1,15 @@
 apply plugin: 'com.android.library'
 
+
+ext {
+    PUBLISH_GROUP_ID = 'ayham.searchtoolbar.android'
+    PUBLISH_ARTIFACT_ID = 'material_search_toolbar'
+    PUBLISH_VERSION = '0.2'
+}
+
+group='com.github.ayham95'
+
+
 android {
     compileSdkVersion 25
     buildToolsVersion "26.0.0"
@@ -29,3 +39,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 }
+
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
+
