@@ -1,6 +1,10 @@
 # Material SearchView Toolbar
 ##### A circular reveal SearchView. Just like the one in Whatsapp or GooglePlay.
 
+
+![screenshot0](https://raw.githubusercontent.com/ayham95/Material_Search_Toolbar/master/Screenshot_1498497651.png)
+![screenshot1](https://raw.githubusercontent.com/ayham95/Material_Search_Toolbar/master/Screenshot_1498497612.png)
+
 ### Getting Started
 Add the dependency (available from mavenCentral and jcenter) to your build.gradle:
 
