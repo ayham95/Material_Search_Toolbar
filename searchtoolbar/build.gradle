@@ -2,9 +2,9 @@ apply plugin: 'com.android.library'
 
 
 ext {
-    PUBLISH_GROUP_ID = 'ayham.searchtoolbar.android'
+    PUBLISH_GROUP_ID = 'ayham.android.material'
     PUBLISH_ARTIFACT_ID = 'material_search_toolbar'
-    PUBLISH_VERSION = '0.2'
+    PUBLISH_VERSION = '0.3'
 }
 
 group='com.github.ayham95'
